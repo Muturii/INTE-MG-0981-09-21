@@ -1,0 +1,76 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <meta charset="UTF-14">
+	<title>E-SPORTS</title>
+	<link rel="stylesheet"href="style.css">
+	<body>
+		<div class="wrapper">
+		<div class="logo">
+			<image src="images/logo.jpg" style=" width:70px; float:left; height:auto;">
+		</div>
+		<nav>
+			<a href="e-sports.html">HOME</a>
+			<a href="about.html">ABOUT</a>
+			<a href="events.html">EVENTS</a>
+			<a href="news.html">NEWS</a>
+			<a href="contact us.html">CONTACT US</a>
+		</nav>
+	</div>
+	<style type="text/css">
+		 .nav area{
+            display:flex;
+			justify-content: space-between;
+        }
+        .wrapper{
+            display: flex;
+			justify-content: space-between;
+			background-color:rgb(167, 158, 151);
+        }
+		body {
+			background-image: url(images/tri.jpg.jpg);
+			font-family: Arial, sans-serif;
+		}
+		form {
+			background-color: #fff;
+			border-radius: 3px;
+			box-shadow: 0px 0px 3px rgba(0,0,0,0.3);
+			padding: 30px;
+			margin-top: 30px;
+		}
+		input[type="text"], input[type="email"], textarea {
+			width: 100%;
+			padding: 10px;
+			border-radius: 3px;
+			border: none;
+			margin-bottom: 20px;
+			font-size: 16px;
+			font-family: Arial, sans-serif;
+		}
+		input[type="submit"] {
+			background-color: #4CAF50;
+			color: #fff;
+			border-radius: 3px;
+			padding: 10px;
+			border: none;
+			cursor: pointer;
+		}
+		input[type="submit"]:hover {
+			background-color: #3e8e41;
+		}
+	</style>
+</head>
+	<form action="#" method="post">
+		<label for="name">Name:</label>
+		<input type="text" id="name" name="name" placeholder="Your name..">
+
+		<label for="email">Email:</label>
+		<input type="email" id="email" name="email" placeholder="Your email..">
+
+		<label for="subject">Subject:</label>
+		<textarea id="subject" name="subject" placeholder="Write something.." style="height:200px"></textarea>
+
+		<input type="submit" value="Submit">
+	</form>
+</body>
+</html>
